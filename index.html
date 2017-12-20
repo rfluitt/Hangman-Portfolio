@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Class Hangman Game</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/HangmanGame.css">
+
+  </head>
+  <body>
+    <div class="jumbotron">
+    <h2>NFL Football Teams</h2>
+  </div>
+  <div class="container">
+    <div class='panel panel-default'>
+                <div class='panel-heading'>
+                  <h3 class='panel-title'><strong>NFC Football Teams</strong></h3>
+                </div>
+
+                <div class='panel-body'>
+
+                  <!-- This h3 section called word-blanks is what we'll be replacing with letters as the user guesses. Pay particular attention to the id called ***word-blanks***. We'll be referencing this in the JavaScript. -->
+                  <h3 id='underscore-blanks'>_ _ _ _ _ _ _ _ _ </h3>
+
+                </div>
+
+              </div>
+
+
+<!--  <span id='underscore-blanks'></span><br/>-->
+
+
+
+ <span id='answer'>puzzle loading...</span><br/>
+
+ <div class='panel panel-default'>
+             <div class='panel-body'>
+
+               <!-- This span section called wrong-guesses is where we will be dumping the wrong guesses. Pay particular attention to the id called ****wrong-guesses***. We'll be referencing this in the JavaScript. -->
+               <strong>Guess Allowed: </strong> <span id='guesses-allow'></span>
+
+             </div>
+           </div>
+<!--  <span id='guesses-allow'></span><br/>-->
+
+<div class='panel panel-default'>
+            <div class='panel-body'>
+
+              <!-- This span section called wrong-guesses is where we will be dumping the wrong guesses. Pay particular attention to the id called ****wrong-guesses***. We'll be referencing this in the JavaScript. -->
+              <strong>Incorrect Guesses: </strong> <span id='incorrect-guess'></span>
+
+            </div>
+          </div>
+
+          <div class='panel panel-default'>
+                      <div class='panel-body'>
+
+                        <!-- This span section called wrong-guesses is where we will be dumping the wrong guesses. Pay particular attention to the id called ****wrong-guesses***. We'll be referencing this in the JavaScript. -->
+                        <strong>Wins: </strong> <span id='win-counter'></span>
+
+                      </div>
+                    </div>
+
+                    <div class='panel panel-default'>
+                                <div class='panel-body'>
+
+                                  <!-- This span section called wrong-guesses is where we will be dumping the wrong guesses. Pay particular attention to the id called ****wrong-guesses***. We'll be referencing this in the JavaScript. -->
+                                  <strong>Losses: </strong> <span id='loss-counter'></span>
+
+                                </div>
+                              </div>
+
+
+
+<script type="text/javascript" src="assets/HangmanGame.js">
+</script>
+  </body>
+</html>
